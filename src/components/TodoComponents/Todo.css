@@ -1,0 +1,60 @@
+.form-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.form-input {
+	margin-right: 2rem;
+	width: 17rem;
+	border-radius: 0.5rem;
+	border: 1px black solid;
+	text-indent: 0.4rem;
+}
+
+.add-btn {
+	border: 0px;
+	background: purple;
+	color: white;
+	border-radius: 0.5rem;
+	width: 5rem;
+	height: 2rem;
+	margin-right: 1rem;
+}
+
+.clear-btn {
+	border: 0px;
+	background: red;
+	color: white;
+	border-radius: 0.5rem;
+	width: 10rem;
+	height: 2rem;
+}
+
+.todo-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.task {
+	border: 1px black solid;
+	background: white;
+	color: black;
+	width: 20rem;
+	height: 10rem;
+	padding: 1rem 2rem;
+	margin: 0.5rem 1rem;
+	display: flex;
+}
+
+.task p {
+	font: Helvetica;
+	font-size: 1.6rem;
+}
+
+.completed {
+	border: 0px;
+	background: lightgreen;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
